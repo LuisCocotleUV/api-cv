@@ -1,0 +1,13 @@
+{
+  "name"  : "Luis David Cocotle Yáñez",
+  "grades": "Licencitura",
+  "mision": "Game develop",
+  "foto"  : "https://firebasestorage.googleapis.com/v0/b/mycv-40a49.appspot.com/o/xd222.jpg?alt=media&token=d61cf823-6e63-49ff-8ade-bd3836b2467f",
+  "email" : "luisdavidcocoy@hotmail.com",
+  "cel"   : "(272)105 7503",
+  "ubicacion": "Camerino Z. Mendoza, Veracruz, México",
+  "social": {
+    "face": "^2.8.5",
+    "x": "^4.18.2"
+  }
+}

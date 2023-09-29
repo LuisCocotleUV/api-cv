@@ -13,17 +13,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16.x
-      - name: make .env 
-        uses: SpicyPizza/create-envfile@v1.3
-        with:
-          envkey_DEV_DATABASE_URL : ${{ secrets.DEV_DATABASE_URL }}
-          file_name: .env
-          fail_on_empty: false
-      
-      - name: show dir, .env file
-        run: |
-          cat .env 
-          
+
       - name: Build the custom Docker image
         run: docker build -t ${{secrets.DOCKER_USER}}/${{secrets.MODEL_NAME}}:${{github.sha}} .
 
